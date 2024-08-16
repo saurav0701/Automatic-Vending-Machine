@@ -13,7 +13,7 @@ S1 : 5 Rs in Vending Machine –
 - If nothing added: Here, this means the vending machine waited some
 time but no money was added signifying an incomplete transaction, thus the vending machine should return back the money added as
 CHANGE (5 Rs). No bottle given. Move to State 0, OUTPUT = 0, CHANGE = Rs 5 (01). 
-- If 5 Rs added: Move to State 1, OUTPUT = 0, CHANGE = 0. 
+- If 5 Rs added: Move to State 2, OUTPUT = 0, CHANGE = 0. 
 - If 10 Rs added: Adding 10 Rs means the vending machine now has
 15 Rs total thus, a bottle will be returned with no CHANGE. Move to State 0, OUTPUT = 1, CHANGE = Rs 0. 
 
